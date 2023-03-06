@@ -2,7 +2,7 @@
 In this assignment we provide 4 approachs to the asset allocation problem:
 
 -   Analytic Solution\
-    In this approach we solve the Bellman Optimality Equation and visualize the optimal asset allocation with different absolute risk averse parameter $\alpha = 0.001,0.01,...,100$
+    In this approach we solve the Bellman Optimality Equation with the CARA Utility function $U(W_{T})=\frac{1-e^{-\alpha W_{T}}}{\alpha}, \alpha\neq 0$ and visualize the optimal asset allocation with different absolute risk averse parameter $\alpha = 0.001,0.01,...,100$
 
 -   Tabular solution
 
