@@ -1,7 +1,4 @@
 # MAFS-5370-Assignment-1
-
-**MAFS 5370 Assignment 1**
-
 In this assignment we provide 4 approachs to the asset allocation problem:
 
 -   Analytic Solution\
