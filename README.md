@@ -4,7 +4,7 @@ In this assignment we provide 4 approachs to the asset allocation problem:
 -   Analytic Solution\
     In this approach we solve the Bellman Optimality Equation with the CARA Utility function $$U(W_{T})=\frac{1-e^{-\alpha W_{T}}}{\alpha}, \alpha\neq 0$$ and visualize the optimal asset allocation with different absolute risk averse parameter $\alpha = 0.001,0.01,...,100$
 
--   Tabular solution
+-   Tabular solution\
     In this approach, we discretized the state and action space from continuous space into bins. 
 
 we treated the state-action q value function as a big Q(s,a) table and perform tabular q-learning. 
