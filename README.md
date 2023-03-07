@@ -5,11 +5,7 @@ In this assignment we provide 4 approachs to the asset allocation problem:
     In this approach we solve the Bellman Optimality Equation with the CARA Utility function $$U(W_{T})=\frac{1-e^{-\alpha W_{T}}}{\alpha}, \alpha\neq 0$$ and visualize the optimal asset allocation with different absolute risk averse parameter $\alpha = 0.001,0.01,...,100$
 
 -   Tabular solution\
-    In this approach, we discretized the state and action space from continuous space into bins. 
-
-we treated the state-action q value function as a big Q(s,a) table and perform tabular q-learning. 
-
-The model converged well in smaller timestep setup (e.g. T < 2) and did not perform as well when T increases to 10 steps, or it will take much larger number of episodes to explore the state-action spaces and update the tabular Q function\
+    In this approach, we discretized the state and action space from continuous space into bins. We treated the state-action q value function as a big Q(s,a) table and perform tabular q-learning. The model converged well in smaller timestep setup (e.g. T < 2) and did not perform as well when T increases to 10 steps, or it will take much larger number of episodes to explore the state-action spaces and update the tabular Q function\
 
 -   Functional Approximation\
     We attempted to use Semi-Gradient SARSA algorithm in the Reinforcement Learning: An Introduction to approximate Q function. For each functional form, both same Q function for all time steps; and different Q function for different time steps (the functional approximation does not require the input of parameter t) is tested. Although the parameters of the functional approximation converges in most of the case, the optimal allocation is very different from the analytic solution.\
