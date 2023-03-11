@@ -16,4 +16,4 @@ In this assignment we provide 4 approachs to the asset allocation problem:
 
 For detailed description of the four approaches, refer to the comments in the coding blocks and markdown cells in the 4 .ipynb files.
 
-Remarks: the rl file is from the textbook and TextbookNormal.ipynb is copied from GitHub: https://github.com/ShangtongZhang/reinforcement-learning-an-introduction for testing.
+Remarks: the rl file and TextbookNormal.ipynb are ammended based on the GitHub for the Book Foundations of Reinforcement Learning with Financial Application: https://github.com/ShangtongZhang/reinforcement-learning-an-introduction for testing.
