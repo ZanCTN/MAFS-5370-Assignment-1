@@ -15,3 +15,5 @@ In this assignment we provide 4 approachs to the asset allocation problem:
     One possibility is "if the action space A is continuous, the learned value function Q could have many local maxima and saddle points; therefore, naive approaches such as gradient ascent can be expensive and inaccurate" suggested in "Deep Radial-Basis Value Functions for Continuous Control" <https://arxiv.org/abs/2002.01883>
 
 For detailed description of the four approaches, refer to the comments in the coding blocks and markdown cells in the 4 .ipynb files.
+
+Remarks: the rl file is from the textbook and TextbookNormal.ipynb is copied from textbook for testing.
